@@ -1,11 +1,13 @@
 import java.util.*;
-class TwentyOne{
-	public static void main(String args[]){
+class TwentyOne
+{
+	public static void main(String args[])
+	{
 		int n; 
 		int[] a;
 		
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Enter the nuumber of elements in an array:");
+		System.out.println("Enter the number of elements in an array:");
 		n=scan.nextInt();
 		
 		a=new int[n]; // new ko n small int ko i ni small be carefuland there is space in between

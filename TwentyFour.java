@@ -17,11 +17,21 @@ class TwentyFour
 		}
 		
 		for(int i=0;i<3;i++){
+			
 			for(int j=i;j<3;j++){
-				System.out.print(a[i][j]);
-				System.out.print("\t");//very important step natra elements ekaithau ma aayera output nai namile jasto lagcha
+				
+				if(i>j){
+					System.out.print("\t");
+
+				}
+				else{
+					System.out.print(a[i][j]);
+				}
+
 			}
-			System.out.println();//eta ln narakhi () matra rakhe error aaucha, ki ln use nagarne bhaye ("\n") esari rakhnuparyo for new line
+			
+			System.out.println("");//eta ln narakhi () matra rakhe sabai kura eutai line ma aaucha, ki ln use nagarne bhaye ("\n") esari rakhnuparyo for new line
+
 		}
 	}
 }
